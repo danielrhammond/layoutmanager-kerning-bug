@@ -19,6 +19,7 @@
 		3DA9D42817FF3A9A000CE9C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA9D41017FF3A9A000CE9C6 /* UIKit.framework */; };
 		3DA9D43017FF3A9A000CE9C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DA9D42E17FF3A9A000CE9C6 /* InfoPlist.strings */; };
 		3DA9D43217FF3A9A000CE9C6 /* BoundingRectKernExperimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA9D43117FF3A9A000CE9C6 /* BoundingRectKernExperimentTests.m */; };
+		3DA9D43D17FF3AAD000CE9C6 /* BRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA9D43C17FF3AAD000CE9C6 /* BRRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		3DA9D42D17FF3A9A000CE9C6 /* BoundingRectKernExperimentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoundingRectKernExperimentTests-Info.plist"; sourceTree = "<group>"; };
 		3DA9D42F17FF3A9A000CE9C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3DA9D43117FF3A9A000CE9C6 /* BoundingRectKernExperimentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoundingRectKernExperimentTests.m; sourceTree = "<group>"; };
+		3DA9D43B17FF3AAD000CE9C6 /* BRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRRootViewController.h; sourceTree = "<group>"; };
+		3DA9D43C17FF3AAD000CE9C6 /* BRRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				3DA9D41B17FF3A9A000CE9C6 /* BRAppDelegate.h */,
 				3DA9D41C17FF3A9A000CE9C6 /* BRAppDelegate.m */,
+				3DA9D43B17FF3AAD000CE9C6 /* BRRootViewController.h */,
+				3DA9D43C17FF3AAD000CE9C6 /* BRRootViewController.m */,
 				3DA9D41E17FF3A9A000CE9C6 /* Images.xcassets */,
 				3DA9D41317FF3A9A000CE9C6 /* Supporting Files */,
 			);
@@ -242,6 +247,7 @@
 			files = (
 				3DA9D41D17FF3A9A000CE9C6 /* BRAppDelegate.m in Sources */,
 				3DA9D41917FF3A9A000CE9C6 /* main.m in Sources */,
+				3DA9D43D17FF3AAD000CE9C6 /* BRRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
